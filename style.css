@@ -1,0 +1,162 @@
+body {
+	background: url(http://www.kellylougheed.com/images/backgrounds/germany.jpg); 
+	background-size: cover;
+	background-position: center;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: rgb(107,150,182);
+}
+
+h1 {
+	font-size: 5em;
+	color: white;
+	text-shadow: 3px 3px rgba(107,150,182,.8);
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 3em;
+	text-shadow: 2px 2px white;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h3 {
+	margin-bottom: 20px;
+}
+
+input, button {
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	font-size: 2em;
+	margin: 5px;
+	font-family: 'Oswald';
+}
+
+input {
+	border: 2px solid rgb(107,150,182);
+	width: 20%;
+	text-align: center;
+	color: rgb(107,150,182);
+	background-color: rgba(255,255,255,.8);
+}
+
+button {
+	background-color: rgb(107,150,182);
+	color: white;
+	border: 2px solid white;
+	padding: 10px;
+	transition: all .5s;
+}
+
+#result img {
+	width: 200px;
+}
+
+p#result {
+	margin: 25px;
+}
+
+p#result span {
+	background-color: rgba(255,255,255,.9);
+	font-size: 1.5em;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+p#result span.word {
+	font-size: 5em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+p#twitter {
+	font-size: 2em;
+	margin: 0;
+}
+
+p#twitter a {
+	background-color: rgb(107,150,182);
+	color: white;
+	border: 2px solid white;
+	padding: 0 10px;
+	border-radius: 10px;
+	transition: all .5s;
+}
+
+p#twitter a:hover, button:hover {
+	background-color: white;
+	color: rgb(107,150,182);
+	border: 2px solid rgb(107,150,182);
+	cursor: pointer;
+}
+
+button:hover {
+	letter-spacing: 2px;
+}
+
+p#twitter a:hover {
+	font-size: 1.25em;
+}
+
+/********** Footer **********/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 20px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1px;
+  /* Set the fixed height of the footer here */
+  height: 20px;
+  background: rgba(0, 0, 0, .3);
+  text-align: center;
+  font-size: .8em;
+  color: #ccc;
+  letter-spacing: 2px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: all .5s;
+}
+.footer a:hover {
+  letter-spacing: 4px;
+  text-decoration: none;
+}
+
+/********** Small devices **********/
+@media (max-width: 767px) {
+
+	h1, p#result span.word {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+
+	input {
+		width: 90%;
+		font-size: 1em;
+	}
+
+	button {
+		font-size: 1em;
+	}
+
+	#result img {
+		width: 100px;
+	}
+
+}
+
