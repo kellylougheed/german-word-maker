@@ -37,7 +37,7 @@
 	</p>
 
 	<div class="footer">
-      © <a class="contact" href="http://www.kellylougheed.com" target="_blank">Kelly Lougheed</a> 2017. All rights reserved.
+      © <a class="contact" href="http://www.kellylougheed.com" target="_blank">Kelly Lougheed</a> <?php echo date("Y"); ?>. All rights reserved.
   </div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
